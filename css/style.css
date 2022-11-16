@@ -40,6 +40,12 @@ body {
     padding: 0 20px;
     font-size: 0.8rem;
     color: white;
+    transition: all 500ms ease;
+}
+
+.navbar-container ul li:hover {
+    color: #b5a106;
+    cursor: pointer;
 }
 
 .navbar-container ul li:nth-child(3) {
@@ -84,6 +90,117 @@ body {
     border: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+    transition: all 500ms ease;
+}
+
+.btn-primary:hover {
+    color: blue;
+    background: #b9af06;
+    cursor: pointer;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 80px 0;
+}
+
+.footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    margin: 0 50px;
+    list-style: none;
+}
+
+.footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #b5a106;
+}
+
+.footer-menu .footer-menu-item {
+    margin: 20px 0;
+    transition: all 500ms ease;
+}
+
+.footer-menu .footer-menu-item:hover {
+    color: #b5a106;
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: all 500ms ease;
+}
+
+.socials i:hover {
+    color: #b5a106;
+    cursor: pointer;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.footer-info .footer-info-items {
+    list-style: none;
+    display: flex;
+}
+
+.footer-info .footer-info-item {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #b5a106;
+    font-size: 0.75rem;
+    transition: all 500ms ease;
+}
+
+.footer-info .footer-info-item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+    transition: all 500ms ease;
+}
+
+.footer-info .rights .country:hover {
+    color: #b5a106;
+    cursor: pointer;
+} 
+
+.footer-info .rights p {
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.brazil-flag {
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 
